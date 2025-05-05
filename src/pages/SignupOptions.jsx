@@ -10,7 +10,7 @@ function SignupOptions() {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: provider.toLowerCase(),
         options: {
-          redirectTo: "http://localhost:5173/auth/callback",
+          redirectTo: "https://solarsarthi.netlify.app/auth/callback",
           queryParams: {
             access_type: "offline",
             prompt: "consent",
