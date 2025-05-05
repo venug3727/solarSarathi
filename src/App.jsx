@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import SignupPage from "./pages/SignupPage.jsx";
 import AuthCallback from "./AuthCallback";
-import SignupOptions from "./Pages/SignupOptions";
+import SignupOptions from "./pages/SignupOptions";
 import LoginPage from "./pages/LoginPage.jsx";
 import { ProtectedRoute } from "./components/ProtectedRoute.jsx";
 import QuotePage from "./pages/QuotePage.jsx";
